@@ -1,10 +1,7 @@
 package model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 import java.math.BigDecimal;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
 public class Employee {
     private int id;
     private String name;
